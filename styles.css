@@ -18,6 +18,12 @@
 }
 
 body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
     color: var(--grayish-blue);
@@ -101,6 +107,9 @@ header p{
 }
 
 @media screen and (max-width: 540px){
+    body{
+        display: inline-block;
+    }
     h1{
         font-size: 26px;
     }
